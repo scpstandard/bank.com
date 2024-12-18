@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Chartered Private Bank</title>
+
+    <link rel="stylesheet" href="home.css">
+
+    <!-- box icons  -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remixicons  -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <ul class="navlinks">
+            <li><a href="#">Online Guide</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Security Tips</a></li>
+            <li><a href="#">Fighting Fraud</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="logo">
+            <img src="./SCB loggo.png">
+        </div>
+    </header>
+
+    <section>
+
+        <div class="home">
+            <div class="lang">
+                <select name="" id="">
+                    <option value="1">English</option>
+                    <option value="1">中文（简体）</option>
+                    <option value="1">中文（繁體）</option>
+                </select>
+            </div>
+
+            <div class="home-container">
+                <div class="home-content">
+                    <h1>MARKET INSIGHTS</h1>
+                <h4>Another year of US exceptionalism?</h4>
+                <li>
+                    <p>US exceptionalism has scaled new heights this year. US equities have gained 29% year to date, following 26% 
+                        returns in 2023, widening the performance gap with other markets.</p>
+                </li>
+                    <li>
+                        <p>President-elect Trump’s policies are likely to lead to another year of US equity outperformance in 2025. 
+                            However, prudence dictates investors stay diversified and nimble to hedge against risks.</p>
+                    </li>
+
+                        <button class="home-content-btn">
+                            <a href="#">Read more</a>
+                        </button>
+                </div>
+
+                        <div class="home-form">
+                            <h1 class="form-title">Welcome to Standard Chartered Private Bank</h1>
+                            <span class="switch">
+                                <li><a href="#" style="border-bottom: 1.7px solid black; padding-bottom: 4px;" >Login</a></li>
+                                <li><a href="#" style="border-left: 1.7px solid black; padding-left: 15px;">SignUp</a></li>
+                            </span>
+                            <form id="loginForm">
+                                <div class="input-group">
+                                    <input type="text" name="Username" id="username" placeholder="Case Sensitive Username *" required>
+                                    <span class="username-error" id="username-error" style="display: none;">Incorrect username</span>
+                                </div>
+            
+                                <div class="input-group">
+                                    <input type="password" name="password" id="password" placeholder="Case Sensitive Password *" required>
+                                    <span class="password-error" id="password-error" style="display: none;">Incorrect password</span>
+                                    <!-- <i class="ri-eye-off-fill"></i>
+                                    <i class="ri-eye-fill"></i> -->
+                                </div>
+            
+                                <div class="input-group">
+                                    <input type="submit" class="btn" value="LOGIN" name="Login" id="signInButton" onclick="checkLogin()">
+                                </div>
+            
+                                <span class="recovery">
+                                    <a href="#">Forget Username</a>
+                                    <a href="#">Forget Password</a>
+                                </span>
+            
+                            </form>
+                        </div>
+
+
+                       
+            </div>
+
+            <footer>
+                <p>Important Notice Protect your Personal Digital Keys; Beware of Fraudulent Links. Please be aware that there have been multiple reports of scammers, at times impersonating as staff from...</p>
+                <button>READ MORE</button>
+            </footer>
+        </div>
+    </section>
+
+    <script src="home.js"></script>
+
+</body>
+</html>
